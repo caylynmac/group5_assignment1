@@ -1,0 +1,14 @@
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.AssemblyInfoInputs.cache
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.AssemblyInfo.cs
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\bin\Debug\net7.0\Group5_Assignment1.exe
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\bin\Debug\net7.0\Group5_Assignment1.deps.json
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\bin\Debug\net7.0\Group5_Assignment1.runtimeconfig.json
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\bin\Debug\net7.0\Group5_Assignment1.dll
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\bin\Debug\net7.0\Group5_Assignment1.pdb
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.dll
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\refint\Group5_Assignment1.dll
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.pdb
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\Group5_Assignment1.genruntimeconfig.cache
+C:\Users\Fire\Desktop\group5_assignment1-main\Group5_Assignment1\obj\Debug\net7.0\ref\Group5_Assignment1.dll
