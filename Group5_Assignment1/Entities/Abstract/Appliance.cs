@@ -58,7 +58,7 @@ namespace Group5_Assignment1.Entities.Abstract
         }
         
         //constructors
-        protected Appliance(string brand, string color, long itemNumber, decimal price, int quantity, decimal wattage)
+        protected Appliance(long itemNumber, string brand, int quantity, decimal wattage, string color, decimal price)//order of values stored in text file
         {
             this._brand = brand;
             this._color = color;
@@ -80,13 +80,13 @@ namespace Group5_Assignment1.Entities.Abstract
             //convert item number to string, get first index
             char firstDigitStr = itemNumber.ToString()[0];
             int firstDigit = firstDigitStr - '0'; //returns int value between 1 and 9
-            
+
             if (firstDigit == 1)
             {
                 //refrigerator
                 return ApplianceTypes.Refrigerator;
             }
-            else if  (firstDigit == 2) 
+            else if (firstDigit == 2)
             {
                 //vacuum
                 return ApplianceTypes.Vacuum;
@@ -96,16 +96,18 @@ namespace Group5_Assignment1.Entities.Abstract
                 //microwave
                 return ApplianceTypes.Microwave;
             }
-            else if (firstDigit == 4 || firstDigit == 5) 
+            else if (firstDigit == 4 || firstDigit == 5)
             {
                 //dishwasher
                 return ApplianceTypes.Dishwasher;
             }
             else
             { return ApplianceTypes.Unknown; }
+        }
         public virtual string FormatForFile()
         {
             return string.Join(';', this._brand, this._color, this._itemNumber, this._quantity, this._wattage, this._price);
         }
     }
 }
+
