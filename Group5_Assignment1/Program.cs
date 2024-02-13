@@ -8,15 +8,15 @@
             ModernAppliances modernAppliances = new MyModernAppliances();
             //sets the base value to none for options
 
-            modernAppliances.Options option = option.modernAppliances.None;
+            modernAppliances.Options option = option.ModernAppliances.None;
             modernAppliances.Options saveExit = option.ModernAppliances.saveExit;
             //while option does not equal save exit repeat loop
             while(option != saveExit) {
             
             //display the menu of modern appliances
-            ModernAppliances.DisplayMenu();
+            modernAppliances.DisplayMenu();
             //read the line from display menu, and make option equal to whatever input they put in (options 1,2,3,4,5)
-            option = Enum.Parse<ModernAppliances.Options>(Console.ReadLine());
+            option = Enum.Parse<modernAppliances.Options>(Console.ReadLine());
 
             //if option is equal to 1, it will access checkout from modernAppliances
             if (option = 1) {
