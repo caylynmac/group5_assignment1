@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "19zGJFlurx23uVlDa26bBKRTJ3FUvpJdbjvhBXXCug4j0AyvqmJGbCu/IV+3PxQue0oQD1KkAx/RA1j7V74lCg==",
+  "dgSpecHash": "v23EfV9IMIbs951kppn4zxR2oS/QVlJmMlEiS8YF8XxWK4/CIqOigJnXogdXJlrAJycOIxPlWLNumrQzXJYE5A==",
   "success": true,
-  "projectFilePath": "C:\\cprg211\\assignments\\assignment-1\\Group5_Assignment1\\Group5_Assignment1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Fire\\Desktop\\group5_assignment1-main\\Group5_Assignment1\\Group5_Assignment1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fire\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Fire\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Fire\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Fire\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
