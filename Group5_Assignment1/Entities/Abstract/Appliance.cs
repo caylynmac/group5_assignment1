@@ -11,14 +11,6 @@ namespace Group5_Assignment1.Entities.Abstract
 {
     internal abstract class Appliance
     {
-        public enum ApplianceTypes
-        {
-            Unknown,
-            Refrigerator = 1,
-            Vacuum = 2,
-            Microwave = 3,
-            Dishwasher = 4 //or 5??
-        }
 
         //private fields
 
@@ -45,7 +37,7 @@ namespace Group5_Assignment1.Entities.Abstract
         public bool IsAvailable //returns tre if quantity greater than 0
         {  get 
             {
-                bool isAvalaible = Quantity > 0; //???
+                bool isAvalaible = Quantity > 0; // returns true if quantity > 0
                 return isAvalaible; 
             } 
         }
@@ -53,12 +45,13 @@ namespace Group5_Assignment1.Entities.Abstract
         public string Type
         {  get 
             {
-                return "type";
+                
+                return DetermineAppliance(_itemNumber);
             } 
         }
         
         //constructors
-        protected Appliance(string brand, string color, long itemNumber, decimal price, int quantity, decimal wattage)
+        protected Appliance(long itemNumber, string brand, int quantity, decimal wattage, string color, decimal price)//order of values stored in text file
         {
             this._brand = brand;
             this._color = color;
@@ -75,7 +68,7 @@ namespace Group5_Assignment1.Entities.Abstract
         {
             this._quantity = this._quantity - 1;
         }
-        public static ApplianceTypes DetermineAppliance(long itemNumber) //return string static item from enumeration?
+        public string DetermineAppliance(long itemNumber) 
         {
             //convert item number to string, get first index
             char firstDigitStr = itemNumber.ToString()[0];
@@ -84,25 +77,25 @@ namespace Group5_Assignment1.Entities.Abstract
             if (firstDigit == 1)
             {
                 //refrigerator
-                return ApplianceTypes.Refrigerator;
+                return "Refrigerator";
             }
             else if (firstDigit == 2)
             {
                 //vacuum
-                return ApplianceTypes.Vacuum;
+                return "Vacuum";
             }
             else if (firstDigit == 3)
             {
                 //microwave
-                return ApplianceTypes.Microwave;
+                return "Microwave";
             }
             else if (firstDigit == 4 || firstDigit == 5)
             {
                 //dishwasher
-                return ApplianceTypes.Dishwasher;
+                return "Dishwasher";
             }
             else
-            { return ApplianceTypes.Unknown; }
+            { return "Unknown"; }
         }
         public virtual string FormatForFile()
         {
