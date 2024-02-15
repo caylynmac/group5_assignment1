@@ -83,7 +83,6 @@ namespace Group5_Assignment1
                 if (appliance != null)
                 {
                     appliances.Add(appliance);
-                    Console.WriteLine(appliance.Type);
                 }
 
             }
